@@ -5,7 +5,6 @@ class Navbar extends React.Component{
   render() {
     return(
      <nav className='navbar'>
-       <h3> </h3>
        <div>
          <ul>
            <li><Link to='/'>Home</Link></li>
