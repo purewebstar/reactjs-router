@@ -16,18 +16,18 @@ const useStyles = makeStyles({
 
 const Navbar = () =>{
   const classes = useStyles()
-    return(
-     <AppBar position="static">
-     <Toolbar>
-       <Typography variant="h6" className={classes.title}>
-         Reactjs-Router
-       </Typography>
-       <Button color="primary"><Link to='/home'>Home</Link></Button>
-       <Button color="inherit"><Link to='/about'>About</Link></Button>
-       <Button color="inherit"><Link to='/contact'>Contact</Link></Button>
-     </Toolbar>
-    </AppBar>
-    )
+  return(
+    <AppBar position="static">
+    <Toolbar>
+      <Typography variant="h6" className={classes.title}>
+        Reactjs-Router
+      </Typography>
+      <Button color="primary"><Link to='/home'>Home</Link></Button>
+      <Button color="inherit"><Link to='/about'>About</Link></Button>
+      <Button color="inherit"><Link to='/contact'>Contact</Link></Button>
+    </Toolbar>
+  </AppBar>
+  )
 }
 
 export default Navbar
